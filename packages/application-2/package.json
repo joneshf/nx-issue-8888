@@ -1,0 +1,8 @@
+{
+  "name": "@nx-issue-8888/application-2",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "dependencies": {
+    "@nx-issue-8888/library-1": "*"
+  }
+}

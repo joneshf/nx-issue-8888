@@ -1,0 +1,39 @@
+{
+  "root": "packages/application-3",
+  "sourceRoot": "packages/application-3/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/application-3",
+        "main": "packages/application-3/src/index.ts",
+        "tsConfig": "packages/application-3/tsconfig.app.json",
+        "assets": ["packages/application-3/*.md"]
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "options": {
+        "buildTarget": "application-3:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/application-3/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/application-3"],
+      "options": {
+        "jestConfig": "packages/application-3/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "application-1": "packages/application-1",
+    "application-2": "packages/application-2",
+    "application-3": "packages/application-3",
+    "application-4": "packages/application-4",
+    "library-1": "packages/library-1"
+  }
 }

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 57010,
+    "tid": 0,
+    "ts": 0,
+    "args": {
+      "name": "Group #1"
+    }
+  },
+  {
+    "name": "library-1:build",
+    "cat": "library-1,build,",
+    "ph": "X",
+    "ts": 766659.7740650177,
+    "dur": 854312.5059604645,
+    "pid": 57010,
+    "tid": 0,
+    "args": {
+      "target": {
+        "project": "library-1",
+        "target": "build"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "name": "application-1:build",
+    "cat": "application-1,build,",
+    "ph": "X",
+    "ts": 1627654.4049978256,
+    "dur": 859570.1180696487,
+    "pid": 57010,
+    "tid": 0,
+    "args": {
+      "target": {
+        "project": "application-1",
+        "target": "build"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 57010,
+    "tid": 1,
+    "ts": 0,
+    "args": {
+      "name": "Group #2"
+    }
+  },
+  {
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 57010,
+    "tid": 2,
+    "ts": 0,
+    "args": {
+      "name": "Group #3"
+    }
+  },
+  {
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 57010,
+    "tid": 3,
+    "ts": 0,
+    "args": {
+      "name": "Group #4"
+    }
+  },
+  {
+    "name": "application-3:build",
+    "cat": "application-3,build,",
+    "ph": "X",
+    "ts": 2487440.960049629,
+    "dur": 980063.3590221405,
+    "pid": 57010,
+    "tid": 2,
+    "args": {
+      "target": {
+        "project": "application-3",
+        "target": "build"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "name": "application-2:build",
+    "cat": "application-2,build,",
+    "ph": "X",
+    "ts": 2487410.505056381,
+    "dur": 987945.8899497986,
+    "pid": 57010,
+    "tid": 1,
+    "args": {
+      "target": {
+        "project": "application-2",
+        "target": "build"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "name": "application-4:build",
+    "cat": "application-4,build,",
+    "ph": "X",
+    "ts": 2487564.001083374,
+    "dur": 990692.626953125,
+    "pid": 57010,
+    "tid": 3,
+    "args": {
+      "target": {
+        "project": "application-4",
+        "target": "build"
+      },
+      "status": "success"
+    }
+  }
+]
